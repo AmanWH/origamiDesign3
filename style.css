@@ -1,0 +1,196 @@
+.header{
+    background-color: rgb(247, 229, 165);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.bodyimg{
+    background-color: burlywood;
+}
+body{
+    background-color: floralwhite;
+}
+.origami{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.camel{
+    border-style:hidden;
+    background-color: rgb(247, 229, 165);
+}
+.chamaleon{
+    border-style: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(247, 229, 165);
+}
+.pigeon{
+    border-style: hidden;
+    background-color: rgb(247, 229, 165);
+}
+.origami img{
+    border: dashed;
+    border-color: black;
+}
+.camel P{
+    opacity: 0.25;
+     position:absolute;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+
+.camel{
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow:column;
+  
+    position: relative;
+    padding: 20px;
+    border: groove;
+    border-radius: 20px;
+}
+.chamaleon P{
+    opacity: 0.25;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.chamaleon{
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow:column;
+    position: relative;
+    padding: 20px;
+    border: groove;
+    border-radius: 20px;
+}
+.pigeon P{
+    opacity: 0.25;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.pigeon{
+    
+    position:relative;
+    padding: 20px;
+    border: groove;
+    border-radius: 20px;
+}
+.origami{
+    border: groove;
+    border-radius: 10px;
+    border-width: 10px;
+    display: flex;
+    border-color: burlywood;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: auto;
+    white-space: nowrap;
+    background-color:black;
+}
+.pigeon:hover p{
+    font-size: 18px;
+    opacity: 1;
+}
+.pigeon:hover img{
+    opacity: 0.5;
+}
+.camel:hover p{
+    font-size: 18px;
+    opacity: 1;
+}
+.camel:hover img{
+    opacity: 0.5;
+}
+.chamaleon:hover p{
+    font-size: 18px;
+    opacity: 1;
+}
+.chamaleon:hover img{
+    opacity: 0.5;
+}
+.teddy P{
+    opacity: 0.25;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.teddy{
+    border-style: groove;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(247, 229, 165);
+    position:relative;
+    padding: 20px;
+    border: groove;
+    border-radius: 20px;
+}
+.panda P{
+    opacity: 0.25;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.panda{
+    border-style: groove;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(247, 229, 165);
+    position:relative;
+    padding: 20px;
+    border: groove;
+    border-radius: 20px;
+}
+.cicada P{
+    opacity: 0.25;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.cicada{
+    border-style: groove;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(247, 229, 165);
+    position:relative;
+    padding: 20px;
+    border: groove;
+    border-radius: 20px;
+}
+.teddy:hover p{
+    font-size: 18px;
+    opacity: 1;
+}
+.teddy:hover img{
+    opacity: 0.5;
+}
+.cicada:hover p{
+    font-size: 18px;
+    opacity: 1;
+}
+.cicada:hover img{
+    opacity: 0.5;
+}
+.panda:hover p{
+    font-size: 18px;
+    opacity: 1;
+}
+.panda:hover img{
+    opacity: 0.5;
+}
+.socialMedia{
+    margin-top: 10px;
+    border-style: ridge;
+    border-color: burlywood;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+a:link{color: black;}
+a:visited{color:black}
